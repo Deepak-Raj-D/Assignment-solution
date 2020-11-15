@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+body { background-color: lavender; }
+h1 {
+	margin: 20px;
+	font-size: 175%;
+
+}
+h2 {
+	position: relative;
+	border: 1px solid black;
+	width: 100px;
+	height: 30px;
+	color: black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	text-size: 125%;
+	margin: 0;
+
+}
+.menu1, .menu2, .menu3 {
+	margin: 0;
+	float: left;
+	
+}
+section {
+        background-color: gray;
+        margin-right: 20px;
+        margin-top: 20px;
+        border: 1px solid black;
+        position: relative;
+        
+}
+p {
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2.chicken {
+	background-color: pink;
+}
+h2.mutton {
+	background-color: red;
+}
+h2.sushi {
+	background-color: orange;
+}
+@media (min-width: 992px){
+	.menu1, .menu2, .menu3 {
+		width: 33%;
+	}
+}
+@media (min-width:768px ) and (max-width:991px)
+{
+	.menu1, .menu2 {
+		width: 50%;
+	}
+	.menu3 {
+		width: 100%;
+	}
+}
